@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Morristin's DreamLand",
+  titleTemplate: ":title - Mo's DreamLand",
   description: "Morristin's Personal Blog & Knowledge Base",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -22,7 +23,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/Morristin' }
     ]
   }
 })
