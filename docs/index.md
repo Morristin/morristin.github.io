@@ -8,11 +8,11 @@ hero:
   tagline: 风让我们在这里相遇。愿你我终将在这世间重逢。
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 蓝莓色硅谷
+      link: /blueberry-tech
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 细细碎碎念
+      link: /cloud-whisper
 
 features:
   - icon: 🫐
