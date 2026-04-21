@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Morristin DreamLand"
+  name: "Morristin's DreamLand"
   text: "科技 · 文艺 · 知识库"
   tagline: 风让我们在这里相遇。愿你我终将在这世间重逢。
   actions:

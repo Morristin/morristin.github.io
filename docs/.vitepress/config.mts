@@ -2,6 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/',
+
   title: "Morristin's DreamLand",
   titleTemplate: ":title - Mo's DreamLand",
   description: "Morristin's Personal Blog & Knowledge Base",
