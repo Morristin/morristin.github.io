@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: 细细碎碎念
       link: /cloud-whisper
+    - theme: alt
+      text: 关于
+      link: /about
 
 features:
   - icon: 🫐
