@@ -1,6 +1,12 @@
 ## Custom .gitignore snippets
 ## --------------------------
 
+# macOS File System
+.DS_Store
+
+# Obsidian Integration
+.obsidian/
+
 
 ## The .gitignore presets for Node.js
 ## ----------------------------------

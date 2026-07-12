@@ -1,0 +1,24 @@
+/** Import fonts from Google Fonts and set up CSS class for a variable style.
+ * -------------------------------------------------------------------------- */
+
+/* Noto Serif SC: Used for main font family. */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&display=swap");
+
+/* Google Sans Code: Used for mono font like codes. */
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&display=swap");
+
+/* LXGW WenKai TC: Used for the comment in codeblock. */
+@import url("https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap");
+
+/** Override the typography style in the theme default presets.
+ * ------------------------------------------------------------ */
+
+:root {
+  font-optical-sizing: auto;
+  font-style: normal;
+
+  --vp-font-family-base:
+    "Noto Serif SC", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --vp-font-family-mono:
+    "Google Sans Code", "LXGW WenKai Mono TC", ui-monospace, monospace;
+}
