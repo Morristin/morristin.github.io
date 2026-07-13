@@ -10,8 +10,8 @@ export default defineConfig({
       { text: "Home", link: "/" },
       {
         text: "macOS Custom Guidance",
-        link: "/Technology Articles",
-        activeMatch: "/Technology Articles",
+        link: "/Technology Articles/macOS Custom Guidance",
+        activeMatch: "/Technology Articles/macOS Custom Guidance",
       },
     ],
 

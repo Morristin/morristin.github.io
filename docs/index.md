@@ -7,11 +7,11 @@ hero:
   tagline: "A collection of Morristin's articles and novels."
   actions:
     - theme: brand
-      text: "Technology Articles"
-      link: "/Technology Articles"
-    - theme: alt
       text: "macOS Custom Guidance"
       link: "/Technology Articles/macOS Custom Guidance"
+    - theme: brand
+      text: "GitHub Repo"
+      link: "https://github.com/Morristin/Morristin.github.io"
 
 features:
   - title: Well-designed Nord theme

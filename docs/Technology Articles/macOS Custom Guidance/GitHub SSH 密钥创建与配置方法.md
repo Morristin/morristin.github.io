@@ -26,7 +26,7 @@ Host github.com
   IdentityFile ~/.ssh/id_ed25519
 ```
 
-> [!info]- 如果发生了 Bad configuration option 错误
+> [!tip] 如果发生了 Bad configuration option 错误
 > 
 > 请在配置文件中刚刚写入的 `Host github.com` 下方增加一行 `IgnoreUnknown UseKeychain`。其缩进层级与 `UseKeychain` 等配置项保持一致。
 
