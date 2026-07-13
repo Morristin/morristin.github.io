@@ -1,0 +1,211 @@
+/* Nord Palette. Extracted from https://github.com/nordtheme/nord/blob/develop/src/nord.css. */
+/* ----------------------------------------------------------------------------------------- */
+
+:root {
+  /* Base component color of "Polar Night". */
+  /* Used for texts, backgrounds, carets and structuring characters like curly- and square brackets. */
+  --nord0: #2e3440;
+
+  /* Lighter shade color of the base component color. */
+  /* Used as a lighter background color for UI elements like status bars. */
+  --nord1: #3b4252;
+
+  /* Lighter shade color of the base component color. */
+  /* Used as line highlighting in the editor.
+  In the UI scope it may be used as selection- and highlight color. */
+  --nord2: #434c5e;
+
+  /* Lighter shade color of the base component color. */
+  /* Used for comments, invisibles, indent- and wrap guide marker.
+  In the UI scope used as pseudoclass color for disabled elements. */
+  --nord3: #4c566a;
+
+  /* Base component color of "Snow Storm". */
+  /* Main color for text, variables, constants and attributes.
+  In the UI scope used as semi-light background depending on the theme shading design. */
+  --nord4: #d8dee9;
+
+  /* Lighter shade color of the base component color. */
+  /* Used as a lighter background color for UI elements like status bars.
+  Used as semi-light background depending on the theme shading design. */
+  --nord5: #e5e9f0;
+
+  /* Lighter shade color of the base component color. */
+  /* Used for punctuations, carets and structuring characters like curly- and square brackets.
+  In the UI scope used as background, selection- and highlight color depending on the theme shading design. */
+  --nord6: #eceff4;
+
+  /* Bluish core color. */
+  /* Used for classes, types and documentation tags. */
+  --nord7: #8fbcbb;
+
+  /* Bluish core accent color. */
+  /* Represents the accent color of the color palette.
+  Main color for primary UI elements and methods/functions.
+  Can be used for markup quotes and markup link URLs. */
+  --nord8: #88c0d0;
+
+  /* Bluish core color. */
+  /* Used for language-specific syntactic/reserved support characters and keywords, operators, tags, units and
+  punctuations like (semi)colons,commas and braces. */
+  --nord9: #81a1c1;
+
+  /* Bluish core color. */
+  /* Used for markup doctypes, import/include/require statements, pre-processor statements and at-rules (`@`). */
+  --nord10: #5e81ac;
+
+  /* Colorful component color. */
+  /* Used for errors, git/diff deletion and linter marker. */
+  --nord11: #bf616a;
+
+  /* Colorful component color. */
+  /* Used for annotations. */
+  --nord12: #d08770;
+
+  /* Colorful component color. */
+  /* Used for escape characters, regular expressions and markup entities.
+  In the UI scope used for warnings and git/diff renamings. */
+  --nord13: #ebcb8b;
+
+  /* Colorful component color. */
+  /* Main color for strings and attribute values.
+  In the UI scope used for git/diff additions and success visualizations. */
+  --nord14: #a3be8c;
+
+  /* Colorful component color. */
+  /* Used for numbers. */
+  --nord15: #b48ead;
+}
+
+/* Colors: Solid */
+/* ------------- */
+
+:root {
+  --vp-c-white: var(--nord6);
+  --vp-c-black: var(--nord0);
+}
+
+/* Colors: Palette */
+/* Color palette are generated from Nord Aurora, using Adobe Express.
+ * 
+ * Generate steps:
+ * 1. Set Color Harmonies to Shades, set the number of colors in palette to 4.
+ * 2. Set the first color in palette as base color, change it to the aurora color.
+ * 3. Using the first three colors as final color palette.
+ *
+ * Gray color are speacial selected from Snow Storm.
+ * Indigo color are speacial selected from Frost.
+/* ------------------------------------------------------------------------------- */
+
+:root {
+  --vp-c-gray-1: var(--nord4);
+  --vp-c-gray-2: var(--nord5);
+  --vp-c-gray-3: var(--nord6);
+  --vp-c-gray-soft: #4c566a24; /* Nord3 with 0.14 alpha */
+
+  --vp-c-indigo-1: var(--nord10);
+  --vp-c-indigo-2: var(--nord9);
+  --vp-c-indigo-3: var(--nord8);
+  --vp-c-indigo-soft: #3b425224; /* Nord7 with 0.14 alpha */
+
+  --vp-c-purple-1: #695365;
+  --vp-c-purple-2: #9c7b96;
+  --vp-c-purple-3: #b48ead;
+  --vp-c-purple-soft: #b48ead24;
+
+  --vp-c-green-1: #637355;
+  --vp-c-green-2: #8fa67b;
+  --vp-c-green-3: #a3be8c;
+  --vp-c-green-soft: #a3be8c24;
+
+  --vp-c-yellow-1: #9e885d;
+  --vp-c-yellow-2: #d1b57b;
+  --vp-c-yellow-3: #ebcb8b;
+  --vp-c-yellow-soft: #ebcb8b24;
+
+  --vp-c-red-1: #733b40;
+  --vp-c-red-2: #a6555d;
+  --vp-c-red-3: #bf616a;
+  --vp-c-red-soft: #bf616a24;
+
+  --vp-c-sponsor: #88c0d0;
+}
+
+.dark {
+  --vp-c-gray-1: var(--nord3);
+  --vp-c-gray-2: var(--nord2);
+  --vp-c-gray-3: var(--nord1);
+  --vp-c-gray-soft: #d8dee929; /* Nord1 with 0.16 alpha */
+
+  --vp-c-indigo-1: var(--nord8);
+  --vp-c-indigo-2: var(--nord9);
+  --vp-c-indigo-3: var(--nord10);
+  --vp-c-indigo-soft: #8fbcbb29; /* Nord7 with 0.16 alpha */
+
+  --vp-c-purple-1: #b48ead;
+  --vp-c-purple-2: #9c7b96;
+  --vp-c-purple-3: #695365;
+  --vp-c-purple-soft: #b48ead29;
+
+  --vp-c-green-1: #a3be8c;
+  --vp-c-green-2: #8fa67b;
+  --vp-c-green-3: #637355;
+  --vp-c-green-soft: #a3be8c29;
+
+  --vp-c-yellow-1: #ebcb8b;
+  --vp-c-yellow-2: #d1b57b;
+  --vp-c-yellow-3: #9e885d;
+  --vp-c-yellow-soft: #ebcb8b29;
+
+  --vp-c-red-1: #bf616a;
+  --vp-c-red-2: #a6555d;
+  --vp-c-red-3: #733b40;
+  --vp-c-red-soft: #bf616a29;
+}
+
+/* Colors: Background */
+/* ------------------ */
+
+:root {
+  --vp-c-bg: var(--nord6);
+  --vp-c-bg-alt: var(--nord5);
+  --vp-c-bg-elv: var(--nord6);
+  --vp-c-bg-soft: var(--nord5);
+}
+
+.dark {
+  --vp-c-bg: var(--nord0);
+  --vp-c-bg-alt: var(--nord1);
+  --vp-c-bg-elv: var(--nord1);
+  --vp-c-bg-soft: var(--nord1);
+}
+
+/* Colors: Borders */
+/* --------------- */
+
+:root {
+  --vp-c-border: var(--nord4);
+  --vp-c-divider: var(--nord4);
+  --vp-c-gutter: var(--nord4);
+}
+
+.dark {
+  --vp-c-border: var(--nord3);
+  --vp-c-divider: var(--nord3);
+  --vp-c-gutter: var(--nord3);
+}
+
+/* Colors: Text */
+/* ------------ */
+
+:root {
+  --vp-c-text-1: var(--nord0);
+  --vp-c-text-2: var(--nord1);
+  --vp-c-text-3: var(--nord2);
+}
+
+.dark {
+  --vp-c-text-1: var(--nord6);
+  --vp-c-text-2: var(--nord5);
+  --vp-c-text-3: var(--nord4);
+}
