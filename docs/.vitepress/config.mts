@@ -3,13 +3,14 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Morristin's DreamLand",
   titleTemplate: ":title - Mo's DreamLand",
-  
+
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
       {
         text: "macOS Custom Guidance",
-        link: "/Technology Articles/macOS Custom Guidance",
+        link: "/Technology Articles",
+        activeMatch: '/Technology Articles'
       },
     ],
 

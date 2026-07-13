@@ -1,6 +1,6 @@
 绝大部分 mihomo 配置文件都可以沿用默认值或者参照任意知名配置模板。下文中所有引用的配置均为默认值。
 
-#### TCP Keep Alive
+### TCP Keep Alive
 
 ```yaml
 keep-alive-interval: 15

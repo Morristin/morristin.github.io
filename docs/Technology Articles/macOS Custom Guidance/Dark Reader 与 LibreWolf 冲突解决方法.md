@@ -8,7 +8,7 @@
 +AllTargets,-CSSPrefersColorScheme
 ```
 
-> [!tip] 注意配置项的拼写是否正确
+> [!important] 注意配置项的拼写是否正确
 > 
 > 为防止拼写出现错误，请确认该条目已经存在，右侧按钮显示为「编辑」图标而非「+」。
 

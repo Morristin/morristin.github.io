@@ -1,11 +1,11 @@
 
-> [!tip] 命令硬编码说明
+> [!note] 命令硬编码说明
 > 
 > 本系列教程绝大多数命令使用硬编码。这要求你的 macOS 运行在 ARM 芯片架构上，并且环境变量 HOMEBREW_PREFIX 与 Homebrew 默认值保持一致（`/opt/homebrew`） 。
 > 
 > 如果你使用 Intel 架构的 macOS，请将所有 `/opt/homebrew` 改为 `/usr/local` 。
 
-> [!warning] 网络环境的准备工作
+> [!important] 网络环境的准备工作
 > 
 > 本文所有指令均假设系统已经配置完毕良好的网络环境。如果你需要网络环境的恢复方案，请参见 [mihomo 安装与配置方法](mihomo%20安装与配置方法.md) 。
 
