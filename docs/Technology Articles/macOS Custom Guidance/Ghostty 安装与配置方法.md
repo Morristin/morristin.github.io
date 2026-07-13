@@ -9,7 +9,7 @@ brew install ghostty
 
 笔者在此给出自用的外观设置。其最终效果类似于无边框无按键的 Linux 终端。
 
-```toml
+```zig
 theme = light:nord light, dark:nord
 
 font-family = ""

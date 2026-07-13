@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import markdownItFootnoot from "markdown-it-footnote";
 
 export default defineConfig({
   title: "Morristin's DreamLand",
@@ -10,7 +11,7 @@ export default defineConfig({
       {
         text: "macOS Custom Guidance",
         link: "/Technology Articles",
-        activeMatch: '/Technology Articles'
+        activeMatch: "/Technology Articles",
       },
     ],
 
@@ -127,5 +128,12 @@ export default defineConfig({
       { icon: "reddit", link: "https://www.reddit.com/u/morristin/" },
       { icon: "github", link: "https://github.com/Morristin/" },
     ],
+  },
+
+  markdown: {
+    theme: { light: "one-dark-pro", dark: "nord" },
+    config: (md) => {
+      md.use(markdownItFootnoot);
+    },
   },
 });
