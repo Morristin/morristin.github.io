@@ -18,105 +18,53 @@ export default defineConfig({
     sidebar: {
       "/Technology Articles/macOS Custom Guidance": [
         {
-          text: "macOS 个性化恢复综述",
+          text: "Homebrew: macOS 最为著名的包管理器",
+          link: "/Technology Articles/macOS Custom Guidance/Introduction to Homebrew.md",
+        },
+        {
+          text: "mihomo VPN Service",
           items: [
             {
-              text: "macOS 个性化环境恢复",
-              link: "/Technology Articles/macOS Custom Guidance/macOS 个性化环境恢复.md",
+              text: "mihomo 裸内核运行教程",
+              link: "/Technology Articles/macOS Custom Guidance/mihomo VPN Service/mihomo Installation and Setup.md",
             },
           ],
         },
         {
-          text: "mihomo 代理工具配置方法",
-          collapsed: true,
+          text: "Shells and Terminals",
           items: [
             {
-              text: "mihomo 安装与配置方法",
-              link: "/Technology Articles/macOS Custom Guidance/mihomo 安装与配置方法.md",
+              text: "Fish: 现代、智能且友好的 Shell",
+              link: "/Technology Articles/macOS Custom Guidance/Shells and Terminals/Introduction to Fish Shell.md",
             },
             {
-              text: "mihomo 配置文件编写技巧",
-              link: "/Technology Articles/macOS Custom Guidance/mihomo 配置文件编写技巧.md",
+              text: "Ghostty: 功能丰富、渲染高速的跨平台终端仿真器",
+              link: "/Technology Articles/macOS Custom Guidance/Shells and Terminals/Introduction to Ghostty.md",
+            },
+            {
+              text: "Starship: 极简、高速和高度自定义的跨终端 Prompt",
+              link: "/Technology Articles/macOS Custom Guidance/Shells and Terminals/Introduction to Starship Prompt.md",
+            },
+            {
+              text: "使用 SSH 密钥向云端 Git 仓库服务验证身份",
+              link: "/Technology Articles/macOS Custom Guidance/Shells and Terminals/Using SSH to Authorize for Git.md",
             },
           ],
         },
         {
-          text: "终端安装与配置方法",
-          collapsed: true,
+          text: "Browser and Plugins",
           items: [
             {
-              text: "fish 与 starship 安装与配置方法",
-              link: "/Technology Articles/macOS Custom Guidance/fish 与 starship 安装与配置方法.md",
+              text: "LibreWolf: 注重隐私、安全与自由的浏览器",
+              link: "/Technology Articles/macOS Custom Guidance/Browser and Plugins/Introduction to LibreWolf.md",
             },
             {
-              text: "Ghostty 安装与配置方法",
-              link: "/Technology Articles/macOS Custom Guidance/Ghostty 安装与配置方法.md",
-            },
-          ],
-        },
-        {
-          text: "中州韵输入法安装与配置方法",
-          collapsed: true,
-          items: [
-            {
-              text: "Squirrel 鼠须管 与 雾凇拼音 安装与配置方法",
-              link: "/Technology Articles/macOS Custom Guidance/Squirrel 鼠须管 与 雾凇拼音 安装与配置方法.md",
-            },
-          ],
-        },
-        {
-          text: "Obsidian 安装与配置方法",
-          collapsed: true,
-          items: [
-            {
-              text: "Obsidian 仓库配置方法",
-              link: "/Technology Articles/macOS Custom Guidance/Obsidian 仓库配置方法.md",
-            },
-          ],
-        },
-        {
-          text: "浏览器与插件安装与配置方法",
-          collapsed: true,
-          items: [
-            {
-              text: "Dark Reader 配置技巧",
-              link: "/Technology Articles/macOS Custom Guidance/Dark Reader 配置技巧.md",
+              text: "Firefox 扩展推荐",
+              link: "/Technology Articles/macOS Custom Guidance/Browser and Plugins/Recommended Firefox Extensions.md",
             },
             {
-              text: "LibreWolf 安装与配置方法",
-              link: "/Technology Articles/macOS Custom Guidance/LibreWolf 安装与配置方法.md",
-            },
-            {
-              text: "Dark Reader 与 LibreWolf 冲突解决方法",
-              link: "/Technology Articles/macOS Custom Guidance/Dark Reader 与 LibreWolf 冲突解决方法.md",
-            },
-          ],
-        },
-        {
-          text: "代码编辑器与 IDE 安装与配置方法",
-          collapsed: true,
-          items: [
-            {
-              text: "VSCodium 安装与配置方法",
-              link: "/Technology Articles/macOS Custom Guidance/VSCodium 安装与配置方法.md",
-            },
-            {
-              text: "Codeberg SSH 密钥创建与配置方法",
-              link: "/Technology Articles/macOS Custom Guidance/Codeberg SSH 密钥创建与配置方法.md",
-            },
-            {
-              text: "GitHub SSH 密钥创建与配置方法",
-              link: "/Technology Articles/macOS Custom Guidance/GitHub SSH 密钥创建与配置方法.md",
-            },
-          ],
-        },
-        {
-          text: "其他",
-          collapsed: true,
-          items: [
-            {
-              text: "macOS 字体推荐",
-              link: "/Technology Articles/macOS Custom Guidance/macOS 字体推荐.md",
+              text: "Dark Reader 配置指南",
+              link: "/Technology Articles/macOS Custom Guidance/Browser and Plugins/Dark Reader Config Guidance.md",
             },
           ],
         },
