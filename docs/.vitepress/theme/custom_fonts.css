@@ -22,3 +22,15 @@
   --vp-font-family-mono:
     "Google Sans Code", "LXGW WenKai Mono TC", ui-monospace, monospace;
 }
+
+/** Override the style of footnotes.
+ *  -------------------------------- */
+
+.footnotes {
+  font-size: 14px;
+}
+
+.footnotes-sep {
+  margin-top: 32px !important;
+  margin-bottom: 16px !important;
+}
