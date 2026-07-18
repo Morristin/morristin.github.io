@@ -6,6 +6,8 @@ export default defineConfig({
   titleTemplate: ":title - Mo's DreamLand",
 
   themeConfig: {
+    outline: 'deep',
+
     nav: [
       { text: "Home", link: "/" },
       {
@@ -13,6 +15,12 @@ export default defineConfig({
         link: "/Technology Articles/macOS Custom Guidance",
         activeMatch: "/Technology Articles/macOS Custom Guidance",
       },
+    ],
+
+    socialLinks: [
+      { icon: "x", link: "https://x.com/hsmorristin" },
+      { icon: "reddit", link: "https://www.reddit.com/u/morristin/" },
+      { icon: "github", link: "https://github.com/Morristin/" },
     ],
 
     sidebar: {
@@ -70,12 +78,6 @@ export default defineConfig({
         },
       ],
     },
-
-    socialLinks: [
-      { icon: "x", link: "https://x.com/hsmorristin" },
-      { icon: "reddit", link: "https://www.reddit.com/u/morristin/" },
-      { icon: "github", link: "https://github.com/Morristin/" },
-    ],
   },
 
   markdown: {
