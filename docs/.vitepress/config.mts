@@ -26,14 +26,14 @@ export default defineConfig({
     sidebar: {
       "/Technology Articles/macOS Custom Guidance": [
         {
-          text: "Homebrew: macOS 最为著名的包管理器",
+          text: "Introduction to Homebrew",
           link: "/Technology Articles/macOS Custom Guidance/Introduction to Homebrew.md",
         },
         {
           text: "mihomo VPN Service",
           items: [
             {
-              text: "mihomo 裸内核运行教程",
+              text: "Installation and Setup",
               link: "/Technology Articles/macOS Custom Guidance/mihomo VPN Service/mihomo Installation and Setup.md",
             },
           ],
@@ -42,19 +42,19 @@ export default defineConfig({
           text: "Shells and Terminals",
           items: [
             {
-              text: "Fish: 现代、智能且友好的 Shell",
+              text: "Introduction to Fish Shell",
               link: "/Technology Articles/macOS Custom Guidance/Shells and Terminals/Introduction to Fish Shell.md",
             },
             {
-              text: "Ghostty: 功能丰富、渲染高速的跨平台终端仿真器",
+              text: "Introduction to Ghostty",
               link: "/Technology Articles/macOS Custom Guidance/Shells and Terminals/Introduction to Ghostty.md",
             },
             {
-              text: "Starship: 极简、高速和高度自定义的跨终端 Prompt",
+              text: "Introduction to Starship",
               link: "/Technology Articles/macOS Custom Guidance/Shells and Terminals/Introduction to Starship Prompt.md",
             },
             {
-              text: "使用 SSH 密钥向云端 Git 仓库服务验证身份",
+              text: "Using SSH to Authorize for Git",
               link: "/Technology Articles/macOS Custom Guidance/Shells and Terminals/Using SSH to Authorize for Git.md",
             },
           ],
@@ -63,15 +63,15 @@ export default defineConfig({
           text: "Browser and Plugins",
           items: [
             {
-              text: "LibreWolf: 注重隐私、安全与自由的浏览器",
+              text: "Introduction to LibreWolf",
               link: "/Technology Articles/macOS Custom Guidance/Browser and Plugins/Introduction to LibreWolf.md",
             },
             {
-              text: "Firefox 扩展推荐",
+              text: "Recommended Extensions",
               link: "/Technology Articles/macOS Custom Guidance/Browser and Plugins/Recommended Firefox Extensions.md",
             },
             {
-              text: "Dark Reader 配置指南",
+              text: "Dark Reader Config Guidance",
               link: "/Technology Articles/macOS Custom Guidance/Browser and Plugins/Dark Reader Config Guidance.md",
             },
           ],
